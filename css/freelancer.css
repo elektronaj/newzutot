@@ -499,3 +499,7 @@ footer .footer-below {
 .subjectsss span {
   font-size: 24px;
 }
+
+#bibtex_display_peer_reviewed_papers {
+  font-size: 20px;
+}
