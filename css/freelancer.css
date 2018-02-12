@@ -222,11 +222,15 @@ section.success {
     background: #18bc9c;
 }
 
+section.news {
+  color: #fff;
+  background: #233140;
+}
+
 section.music {
     color: #fff;
     background: #18bc9c;
 }
-
 
 @media(max-width:767px) {
     section {
@@ -490,4 +494,8 @@ footer .footer-below {
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+}
+
+.subjectsss span {
+  font-size: 24px;
 }

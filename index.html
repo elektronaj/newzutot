@@ -11,6 +11,8 @@
 
     <title>Nimrod Talmon</title>
 
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico"/>
+
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: https://bootswatch.com/flatly/ -->
     <link href="css/bootstrap.css" rel="stylesheet">
 
@@ -48,138 +50,6 @@
 <script type="text/javascript">
 //<![CDATA[
 $(document).ready(function(){
-
-	new jPlayerPlaylist({
-		jPlayer: "#jquery_jplayer_hoodska1",
-		cssSelectorAncestor: "#jp_container_hoodska1"
-	}, [
-		{
-			title:"HOODSKA (1) 1",
-			mp3:"mp3/HOODSKA1/1.mp3"
-		},
-		{
-			title:"HOODSKA (1) 2",
-			mp3:"mp3/HOODSKA1/2.mp3"
-		},
-		{
-			title:"HOODSKA (1) 3",
-			mp3:"mp3/HOODSKA1/3.mp3"
-		},
-		{
-			title:"HOODSKA (1) 4",
-			mp3:"mp3/HOODSKA1/4.mp3"
-		},
-		{
-			title:"HOODSKA (1) 5",
-			mp3:"mp3/HOODSKA1/5.mp3"
-		},
-		{
-			title:"HOODSKA (1) 6",
-			mp3:"mp3/HOODSKA1/6.mp3"
-		},
-		{
-			title:"HOODSKA (1) 7",
-			mp3:"mp3/HOODSKA1/7.mp3"
-		},
-		{
-			title:"HOODSKA (1) 8",
-			mp3:"mp3/HOODSKA1/8.mp3"
-		},
-		{
-			title:"HOODSKA (1) 9",
-			mp3:"mp3/HOODSKA1/9.mp3"
-		},
-		{
-			title:"HOODSKA (1) 10",
-			mp3:"mp3/HOODSKA1/10.mp3"
-		},
-		{
-			title:"HOODSKA (1) 11",
-			mp3:"mp3/HOODSKA1/11.mp3"
-		},
-		{
-			title:"HOODSKA (1) 12",
-			mp3:"mp3/HOODSKA1/12.mp3"
-		},
-		{
-			title:"HOODSKA (1) 13",
-			mp3:"mp3/HOODSKA1/13.mp3"
-		},
-	], {
-		swfPath: "jPlayer-2.9.2/dist/jplayer",
-		supplied: "mp3",
-		wmode: "window",
-		useStateClassSkin: true,
-		autoBlur: false,
-		smoothPlayBar: true,
-		keyEnabled: true
-	});
-
-	new jPlayerPlaylist({
-		jPlayer: "#jquery_jplayer_hoodska2",
-		cssSelectorAncestor: "#jp_container_hoodska2"
-	}, [
-		{
-			title:"HOODSKA (2) 1",
-			mp3:"mp3/HOODSKA2/1.mp3"
-		},
-		{
-			title:"HOODSKA (2) 2",
-			mp3:"mp3/HOODSKA2/2.mp3"
-		},
-		{
-			title:"HOODSKA (2) 3",
-			mp3:"mp3/HOODSKA2/3.mp3"
-		},
-		{
-			title:"HOODSKA (2) 4",
-			mp3:"mp3/HOODSKA2/4.mp3"
-		},
-		{
-			title:"HOODSKA (2) 5",
-			mp3:"mp3/HOODSKA2/5.mp3"
-		},
-		{
-			title:"HOODSKA (2) 6",
-			mp3:"mp3/HOODSKA2/6.mp3"
-		},
-		{
-			title:"HOODSKA (2) 7",
-			mp3:"mp3/HOODSKA2/7.mp3"
-		},
-		{
-			title:"HOODSKA (2) 8",
-			mp3:"mp3/HOODSKA2/8.mp3"
-		},
-		{
-			title:"HOODSKA (2) 9",
-			mp3:"mp3/HOODSKA2/9.mp3"
-		},
-		{
-			title:"HOODSKA (2) 10",
-			mp3:"mp3/HOODSKA2/10.mp3"
-		},
-		{
-			title:"HOODSKA (2) 11",
-			mp3:"mp3/HOODSKA2/11.mp3"
-		},
-		{
-			title:"HOODSKA (2) 12",
-			mp3:"mp3/HOODSKA2/12.mp3"
-		},
-		{
-			title:"HOODSKA (2) 13",
-			mp3:"mp3/HOODSKA2/13.mp3"
-		},
-	], {
-		swfPath: "jPlayer-2.9.2/dist/jplayer",
-		supplied: "mp3",
-		wmode: "window",
-		useStateClassSkin: true,
-		autoBlur: false,
-		smoothPlayBar: true,
-		keyEnabled: true
-	});
 
 	new jPlayerPlaylist({
 		jPlayer: "#jquery_jplayer_kapara1",
@@ -316,11 +186,13 @@ $(document).ready(function(){
                     <div class="intro-text">
                         <span class="name">Nimrod Talmon</span>
                         <hr class="star-light">
-                        <span class="skills">Postdoctoral Fellow at Weizmann Institute of Science</span>
+                        <!-- <span class="skills">Postdoctoral Fellow at Weizmann Institute of Science</span> -->
                         <br/><br/>
-                        <span>Computational Social Choice</span></br>
-                        <span>Computational Complexity</span></br>
-                        <span>Analysis of Algorithms</span>
+                        <div class="subjectsss">
+                          <span>Computational Social Choice</span></br>
+                          <span>Computational Complexity</span></br>
+                          <span>Analysis of Algorithms</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -328,7 +200,7 @@ $(document).ready(function(){
 
     </header>
 
-    <section id="news">
+    <section class="news" id="news">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -339,7 +211,10 @@ $(document).ready(function(){
                     <!-- <hr class="star-primary"> -->
 <ul class="newsul">
   <li>
-    The paper ``Can We Create Large k-Cores by Adding Few Edges?'' with <a href="http://www.wisdom.weizmann.ac.il/~chitnis/" target="_blank">Rajesh Chitnis</a> is accepted to CSR '18
+    A paper, <br />
+    titled ``Can We Create Large k-Cores by Adding Few Edges?'' <br />
+    and co-authored with <a href="http://www.wisdom.weizmann.ac.il/~chitnis/" target="_blank">Rajesh Chitnis</a>, <br />
+    is accepted to CSR '18
   </li>
 </ul>
                 </div>
@@ -348,7 +223,7 @@ $(document).ready(function(){
    </section>
 
     <!-- THINGZZZ -->
-    <section id="publications">
+    <section class="publications" id="publications">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
