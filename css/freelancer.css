@@ -503,3 +503,14 @@ footer .footer-below {
 #bibtex_display_peer_reviewed_papers {
   font-size: 20px;
 }
+
+.newsul {
+  text-align: center;
+  /* width: 50%; */
+  font-size: 20px;
+  list-style-type: none;
+}
+
+.newsul li {
+  margin: 0 0 3em 0;
+}
